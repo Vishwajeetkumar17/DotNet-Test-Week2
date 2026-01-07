@@ -4,6 +4,13 @@ using System.Text;
 
 namespace DigitalPettyCashLedger
 {
+    /// <summary>
+    /// Provides the entry point for the application and demonstrates basic ledger operations for income and expense
+    /// transactions.
+    /// </summary>
+    /// <remarks>This class contains the application's main method, which initializes ledgers for income and
+    /// expense transactions, adds sample entries, calculates totals, and displays transaction summaries. It serves as
+    /// an example of how to use the Ledger, IncomeTransaction, and ExpenseTransaction types together.</remarks>
     public class Program
     {
         static void Main(string[] args)
